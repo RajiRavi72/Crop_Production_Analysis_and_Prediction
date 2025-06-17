@@ -10,7 +10,7 @@ This project is developed as part of the GUVI Capstone Project, focusing on anal
 
 - Interactive Streamlit Web Application
 - Data Cleaning and Preprocessing with SQL Workbench
-- Visual Analytics using Seaborn and Power BI
+- Visual Analytics using Seaborn and Matplotlib
 - Regression Model for Production Prediction (Random Forest Regressor)
 - SQL Database Integration
 - Multiple Analytical Dashboards:
@@ -34,7 +34,7 @@ Crop_Production_Prediction_Project/
 
 ├── notebook/ # Jupyter Notebooks for EDA & Model Building
 
-├── streamlit_app/ # Streamlit Application Files
+├──notebook/ # Streamlit Application Files
 
 ├── env/ # Virtual Environment (ignored from git)
 
