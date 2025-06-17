@@ -62,6 +62,7 @@ Crop_Production_Prediction_Project/
 ## 🔧 Setup Instructions
 
 ### 1️⃣ Clone the Repository
+
 git clone https://github.com/RajiRavi72/Crop_Production_Analysis_and_Prediction.git
 
 2️⃣ Setup Virtual Environment (recommended)
@@ -72,17 +73,22 @@ source env/bin/activate   # For Linux/Mac
 env\Scripts\activate      # For Windows
 
 3️⃣ Install Dependencies
+
 pip install -r requirements.txt
 
 4️⃣ Run Streamlit App
+
 cd notebook
 streamlit run app.py
 
 📂 Data Source
+
 The data used for this project comes from official agricultural production datasets provided during GUVI Capstone Project.
 
 🙏 Acknowledgments
+
 Special thanks to the GUVI AI & ML Program team for guidance and resources.
 
 👩‍💻 Author
+
 Raji Ravi - GitHub Profile
