@@ -1,0 +1,9 @@
+notebook/rf_model_crop_production.pkl
+data/*.xlsx
+*.pkl
+data/
+notebook/rf_model_crop_production.pkl
+data/FAOSTAT_data.xlsx
+notebook/rf_model_crop_production.pkl
+*.xlsx
+env/
