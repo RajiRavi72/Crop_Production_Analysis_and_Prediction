@@ -68,8 +68,11 @@ git clone https://github.com/RajiRavi72/Crop_Production_Analysis_and_Prediction.
 2️⃣ Setup Virtual Environment (recommended)
 
 cd Crop_Production_Analysis_and_Prediction
+
 python -m venv env
+
 source env/bin/activate   # For Linux/Mac
+
 env\Scripts\activate      # For Windows
 
 3️⃣ Install Dependencies
@@ -79,6 +82,7 @@ pip install -r requirements.txt
 4️⃣ Run Streamlit App
 
 cd notebook
+
 streamlit run app.py
 
 📂 Data Source
