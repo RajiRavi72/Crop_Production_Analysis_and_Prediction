@@ -27,13 +27,21 @@ This project is developed as part of the GUVI Capstone Project, focusing on anal
 
 Crop_Production_Prediction_Project/
 │
+
 ├── data/ # Excel files (ignored from git)
+
 ├── database/ # SQL Scripts for table creation
+
 ├── notebook/ # Jupyter Notebooks for EDA & Model Building
+
 ├── streamlit_app/ # Streamlit Application Files
+
 ├── env/ # Virtual Environment (ignored from git)
+
 ├── requirements.txt # Python dependencies
+
 ├── .gitignore
+
 └── README.md # Project Documentation
 
 
@@ -47,7 +55,7 @@ Crop_Production_Prediction_Project/
 - **Pandas**
 - **Seaborn**
 - **SQL Workbench**
-- **Power BI**
+
 
 ---
 
