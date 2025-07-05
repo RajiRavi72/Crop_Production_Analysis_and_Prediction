@@ -47,6 +47,7 @@ Crop_Production_Prediction_Project/
 
 ---
 Project Report
+
 Problem Statement:
 The project is based on Agriculture domain. The project aims to develop a regression model that forecasts crop production (in tons) based on agricultural factors such as area harvested (in hectares), yield (in kg/ha), and the year, for various crops grown in a specific region.
 
@@ -92,7 +93,9 @@ X_train, X_test, y_train, y_test
   	4.	MAPE (Mean Absolute Percentage Error)
       
 Observations:
+
 	It is found that Random Forest is the best suited model because of the following reasons:
+ 
     		1.	It has the highest R² (~0.9982), meaning it explains almost all the variance.
     		2.	It has the lowest MSE and MAE — much better than Linear Regression and Gradient Boosting.
     		3.	Its MAPE is very low (~1.79%), showing good prediction accuracy relative to actual values.
