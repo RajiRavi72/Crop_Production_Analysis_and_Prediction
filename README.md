@@ -80,21 +80,21 @@ Machine Learning Model:
 2.	Created Training and Test dataset by splitting the X and y datasets  for Training (80 %) and for Testing (20%) by importing train_test_split from sklearn.model_selection  . Now we have 
 X_train, X_test, y_train, y_test
 3.	The following ML Models are then created:
-  1.	Linear Regression
-  2.	Random Forest Regressor
-  3.	Gradient Boosting Regressor
-  4.	K Neighbours Regressor
-  5.	Decision Tree Regressor
+  	1.	Linear Regression
+  	2.	Random Forest Regressor
+  	3.	Gradient Boosting Regressor
+  	4.	K Neighbours Regressor
+  	5.	Decision Tree Regressor
 4.	Evaluation metrics are then used to evaluate the models. The metrics used are : 
-  1.	R2 Score
-  2.	MSE (Mean Square Error)
-  3.	MAE (Mean Absolute Error)
-  4.	MAPE (Mean Absolute Percentage Error)
+  	1.	R2 Score
+  	2.	MSE (Mean Square Error)
+  	3.	MAE (Mean Absolute Error)
+  	4.	MAPE (Mean Absolute Percentage Error)
 Observations:
 	It is found that Random Forest is the best suited model because of the following reasons:
-    1.	It has the highest R² (~0.9982), meaning it explains almost all the variance.
-    2.	It has the lowest MSE and MAE — much better than Linear Regression and Gradient Boosting.
-    3.	Its MAPE is very low (~1.79%), showing good prediction accuracy relative to actual values.
+    		1.	It has the highest R² (~0.9982), meaning it explains almost all the variance.
+    		2.	It has the lowest MSE and MAE — much better than Linear Regression and Gradient Boosting.
+    		3.	Its MAPE is very low (~1.79%), showing good prediction accuracy relative to actual values.
     	
 Model Stored:
 The Trained Random Forest model is stored in rf_model_crop_production.pkl  file.
